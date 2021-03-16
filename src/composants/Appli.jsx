@@ -8,6 +8,8 @@ import Contact from './Contact';
 import PiedDePage from './PiedDePage';
 import { Switch,Route } from 'react-router-dom';
 
+
+
 export default function Appli() { 
   const etatPanier = useLocalStorageState({}, "pvt-ex3-panier");
   return (
